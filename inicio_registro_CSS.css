@@ -1,0 +1,43 @@
+.input-group {
+    width: 350px;
+}
+
+body, html {
+    height: 99%;
+    margin: 0;
+    background-color: rgb(195, 227, 255);
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.logo img {
+    height: 200px;
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+
+.alert {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 380px;
+    margin-right: 10px;
+}

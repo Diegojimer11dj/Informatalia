@@ -1,0 +1,187 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.introduccion, .filtros {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.descripcion {
+    padding-left: 15px;
+    margin-right: 15px;
+}
+
+/* Contenedor con todos los filtros */
+
+.btn {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#filtros {
+    float: left;
+    background-color: rgb(201, 201, 201);
+    width: 275px;
+    padding: 20px;
+    padding-left: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* Barra con rangos de precios */
+
+.price-bar {
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+  
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 7px;
+    border-radius: 0px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin: 10px 0;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4c56af;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4c56af;
+    cursor: pointer;
+}
+
+/* Contenedor de caja con precios */
+
+.contenedor_precio {
+    display: flex;
+    justify-content: center;
+  }
+
+/* Caja debajo de la barra con los precios */
+
+#minCaja {
+    height: 25px;
+    width: 45px;
+}
+
+/* Caja debajo de la barra con el precio máximo */
+
+#maxCaja {
+    height: 25px;
+    width: 45px;
+}
+
+/*
+#contenedor_minimo {
+    
+}
+
+#contenedor_maximo {
+
+}
+*/
+
+.checkbox_marcas {
+    font-weight: normal;
+}
+
+.productos {
+    margin-top: 4px;
+}
+
+.tabla {
+    display: inline;
+    margin-right: 50px;
+}
+
+th {
+    width: 271px;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    float: left;
+    margin: 6px;
+}
+
+.celda_imagen {
+    border-bottom: 1px solid rgb(217, 217, 217);
+    margin-bottom: 10px;
+}
+
+.celda_imagen img {
+    height: 280px;
+    width: 270px;
+    margin: 10px;
+}
+
+.celda_precio {
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    height: 47px;
+}
+
+.celda_precio p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.celda_marcaynombre {
+    font-size: 16px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.celda_marcaynombre p {
+    word-wrap: break-word;
+}
+
+#productos_encontrados {
+    position: relative;
+    font-size: 10px;
+    margin-left: 145px;
+    top: 5px;
+}
+
+/*Mensaje de inicio de sesión correcto o erroneo*/
+
+.alert {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 380px;
+    margin-right: 10px;
+}
